@@ -1,0 +1,60 @@
+/* imc.css */
+
+/* Estilo geral do corpo */
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0; /* Remove margens padrão */
+    background: linear-gradient(rgb(4, 7, 18),#007bff,rgb(13, 10, 46));/* Cor de fundo suave */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+/* Estilo do contêiner principal */
+.centro {
+    background-color: #ffffff; /* Fundo branco para o contêiner */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    width: 300px; /* Largura fixa do contêiner */
+}
+
+/* Estilo do título */
+.titulo {
+    text-align: center; /* Centraliza o texto do título */
+    color: #333333; /* Cor do texto */
+}
+
+/* Estilo das áreas de entrada */
+.input_area {
+    margin-bottom: 15px; /* Espaçamento entre as áreas de entrada */
+}
+
+/* Estilo das perguntas (altura e peso) */
+.cor, .peso {
+    color: #555555; /* Cor do texto das perguntas */
+}
+
+/* Estilo dos campos de entrada */
+input[type="number"] {
+    width: calc(100% - 20px); /* Largura total menos espaçamento interno */
+    padding: 10px; /* Espaçamento interno dos campos de entrada */
+    border: 2px solid #007bff; /* Borda azul clara */
+    border-radius: 5px; /* Bordas arredondadas nos campos de entrada */
+}
+
+/* Estilo do botão */
+button {
+    width: 100%; /* Largura total do botão */
+    padding: 10px; /* Espaçamento interno do botão */
+    background-color: #007bff; /* Cor de fundo azul do botão */
+    color: white; /* Cor do texto no botão */
+    border: none; /* Remove borda padrão do botão */
+    border-radius: 5px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #127ff3; /* Cor mais escura ao passar o mouse sobre o botão */
+}
